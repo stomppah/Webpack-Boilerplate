@@ -1,0 +1,7 @@
+<!--
+    This file is automatically updated when the front end build step detects either any SCSS or JS changes.
+    The 'defer' attribute is added to the script tag which ensures the script is only loaded after the DOM is ready.
+    -- Anthony
+-->
+<link rel="stylesheet" href="/dist<%=htmlWebpackPlugin.files.chunks.app.css %>">
+<script src="/dist<%= htmlWebpackPlugin.files.chunks.app.entry %>" defer></script>
